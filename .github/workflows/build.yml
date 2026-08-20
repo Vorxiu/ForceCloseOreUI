@@ -49,29 +49,3 @@ jobs:
         with:
           name: android-${{ matrix.arch }}
           path: build/android/${{ matrix.arch }}/release/*.so
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          
-          xmake
-          
-
-      - name: Upload SO
-        uses: actions/upload-artifact@v6
-        with:
-          name: android
-          path: build/android/arm64-v8a/release/*.so
