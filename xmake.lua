@@ -24,5 +24,5 @@ target("ForceCloseOreUI")
         remove_files("src/api/memory/win/**.cpp","src/api/memory/win/**.h")
         add_cxflags("-O3")
         add_packages("preloader_android")
-        add_cxxflags("-DLLVM_TARGETS_TO_BUILD=\"ARM;AArch64;x86;BPF\"")
+        add_cxxflags("-DLLVM_TARGETS_TO_BUILD=\"ARM;AArch64;X86;BPF\"")
     end
